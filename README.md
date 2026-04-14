@@ -36,4 +36,4 @@ Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](https://www.
 
 -----
 
-Desenvolvido por **[Seu Nome]** ☕✨
+Desenvolvido por **Roseane da Silva** ☕✨
