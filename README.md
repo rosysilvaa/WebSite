@@ -1,22 +1,39 @@
+Aqui está uma estrutura de **README.md** profissional, clara e bem organizada para o seu projeto. Sinta-se à vontade para ajustar os detalhes específicos do nome do café ou do seu perfil.
+
+-----
+
+# ☕ Cafeteria Artesanal - Website
+
+Este é um projeto de uma **Landing Page** para uma cafeteria focada em cafés artesanais. O objetivo principal foi criar uma interface elegante, responsiva e visualmente atraente para apresentar produtos, história e localização de um negócio local.
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto foi desenvolvido exclusivamente com tecnologias fundamentais da web para garantir leveza e semântica:
+
+  * **HTML5:** Estruturação semântica de todo o conteúdo.
+  * **CSS3:** Estilização avançada, utilizando Flexbox e Grid Layout para responsividade.
+  * **Google Fonts:** Tipografia personalizada para reforçar a identidade visual.
+
+## 📋 Funcionalidades
+
+  * **Design Responsivo:** Adaptado para dispositivos móveis, tablets e desktops.
+  * **Menu de Navegação:** Âncoras que levam o usuário suavemente às seções da página.
+  * **Galeria de Produtos:** Exibição dos cafés artesanais com foco em imagens de alta qualidade.
+  * **Seção de Contato:** Informações de endereço, horários de funcionamento e links de redes sociais.
+  * **Efeitos Hover:** Interatividade simples nos botões e links para uma melhor experiência do usuário.
+
+## 📸 Demonstração
 
 
-
-## ☕ Cafeteria Dev - 
-
-Bem-vindo ao repositório do site **Cafeteria Dev**! Este é um projeto de interface (front-end) desenvolvido para simular a presença online de uma cafeteria moderna e aconchegante.
-
-O foco principal deste projeto foi aplicar conceitos fundamentais de design responsivo e estruturação semântica de layouts.
-
-## Para a construção deste projeto, foram utilizadas as seguintes ferramentas:
-
-* **HTML5:** Estruturação semântica de todo o conteúdo.
-* **CSS3:** Estilização, layout (Flexbox/Grid) e animações suaves.
-* **Google Fonts:** Tipografia personalizada para uma melhor experiência visual.
-* **Font Awesome:** Ícones para redes sociais e detalhes do menu.
-
-## Link do projeto 
+> Para visualizar o projeto online, acesse: [Link para o seu Deploy]
 
 
+## 🎨 Layout e Estilo
+
+A paleta de cores foi escolhida para remeter aos tons terrosos do café, utilizando variações de marrom, creme e preto. A tipografia mistura fontes serifadas para títulos (elegância) e sans-serif para textos (legibilidade).
+
+
+Desenvolvido por **Roseane da Silva** ☕✨
 
 
 
