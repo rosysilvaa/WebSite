@@ -1,0 +1,218 @@
+:root {
+    --coffee-dark: #3E2723;
+    --coffee-medium: #6F4E37;
+    --coffee-light: #C4A48A;
+    --coffee-accent: #D2B48C;
+    --coffee-cream: #F5F5DC; /* Corrigido de #F5FDC para #F5F5DC */
+    --coffee-gold: #D4AF37;
+    --text-dark: #2C2416;
+    --text-light: #f3f3f3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--coffee-cream);
+    color: var(--coffee-dark);
+    line-height: 1.7;
+    /* overflow: hidden;  REMOVIDO: Impedia de rolar a página */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #161515;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0; /* Aumentado levemente */
+    transition: all 0.4s ease;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo-icon {
+    color: var(--coffee-gold);
+    font-size: 28px;
+}
+
+.logo-text {
+    font-family: 'Playfair', serif; /* Nome corrigido para bater com o HTML */
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--coffee-medium);
+    letter-spacing: 1px;
+}
+
+.logo-text span {
+    color: var(--coffee-gold);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Alterado para branco para ler melhor no fundo escuro */
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    padding: 5px 0;
+    transition: all 0.35s ease;
+}
+
+nav a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--coffee-gold);
+    transition: width 0.3s ease;
+}
+
+nav a:hover:after {
+    width: 100%;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background: var(--coffee-medium);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--coffee-dark); /* Adicionado o hífen que faltava */
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #fff; /* Alterado para branco para o Header */
+    border: 2px solid var(--coffee-medium);
+}
+
+.btn-secondary:hover {
+    background: rgba(111, 78, 55, 0.1);
+    transform: translateY(-3px);
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 100vh; /* min-height é melhor que height fixo */
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #080705 0%, #000 100%);
+    z-index: -1;
+}
+
+.hero-content {
+    max-width: 750px;
+    color: var(--text-light);
+    /* Se usar animação, lembre-se de definir o @keyframes */
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: var(--coffee-accent);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-subtitle::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: var(--coffee-gold);
+}
+
+.hero-title {
+    font-size: 58px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    color: var(--text-light);
+    font-family: 'Playfair', serif;
+}
+
+.hero-title span {
+    color: var(--coffee-gold);
+}
+
+.hero-text {
+    font-size: 18px;
+    margin-bottom: 40px; /* Reduzido de 120px para ficar mais equilibrado */
+    max-width: 600px;
+}
+
+/* Animação que faltava */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
