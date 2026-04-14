@@ -23,7 +23,7 @@ O projeto foi desenvolvido exclusivamente com tecnologias fundamentais da web pa
 ## 📸 Demonstração
 
 
-> Para visualizar o projeto online, acesse: [Link para o seu Deploy]
+> Para visualizar o projeto online, acesse: https://rosysilvaa.github.io/WebSite/
 
 
 ## 🎨 Layout e Estilo
