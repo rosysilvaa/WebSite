@@ -1,6 +1,4 @@
-Aqui está uma estrutura de **README.md** profissional, clara e bem organizada para o seu projeto. Sinta-se à vontade para ajustar os detalhes específicos do nome do café ou do seu perfil.
 
------
 
 # ☕ Cafeteria Artesanal - Website
 
